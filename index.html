@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/caffe5116a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">W.</h2>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">New</a></li>
+          <li><a class="nav-link" href="#">Popular</a></li>
+          <li><a class="nav-link" href="#">Trending</a></li>
+          <li><a class="nav-link" href="#">Categories</a></li>
+        </ul>
+        <button class="burger-btn burger-btn__bars">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="burger-btn burger-btn__cross hide">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero-section">
+        <article class="future">
+          <div class="hero-img-container">
+            <img
+              class="hero-img"
+              src="assets/images/image-web-3-desktop.jpg"
+              alt="concept imagage of lego-like web3.0"
+            />
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-header">The Bright Future of Web 3.0?</h1>
+            <p class="hero-paragraph">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="learn-more"><a href="#">read more</a></button>
+          </div>
+        </article>
+        <aside class="aside">
+          <h2 class="aside-header">New</h2>
+          <div class="aside-container">
+            <h4 class="aside-title">
+              <a href="#"> Hydrogen VS Electric Cars </a>
+            </h4>
+            <p class="aside-text">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="line"></div>
+          <div class="aside-container">
+            <h4 class="aside-title">
+              <a href="#"> The Downsides of AI Artistry </a>
+            </h4>
+            <p class="aside-text">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="line"></div>
+          <div class="aside-container aside-container-last">
+            <h4 class="aside-title">
+              <a href="#"> Is VC Funding Drying Up?</a>
+            </h4>
+            <p class="aside-text">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+        </aside>
+      </section>
+      <section class="articles">
+        <div class="article-container">
+          <img
+            class="article-img"
+            src="assets/images/image-retro-pcs.jpg"
+            alt="image of retro pc,retro cassets and retro joystick"
+          />
+          <div class="article-text">
+            <h3 class="article-num">01</h3>
+            <a href="#" class="article-title">Reviving Retro PCs</a>
+            <p class="article-par">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="article-container">
+          <img
+            class="article-img"
+            src="assets/images/image-top-laptops.jpg"
+            alt="close-up image of keyboard keys"
+          />
+          <div class="article-text">
+            <h3 class="article-num">02</h3>
+            <a class="article-title" href="#">Reviving Retro PCs</a>
+            <p class="article-par">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="article-container">
+          <img
+            class="article-img"
+            src="assets/images/image-gaming-growth.jpg"
+            alt="image of a hand catching a ps5 controller in the air"
+          />
+          <div class="article-text">
+            <h3 class="article-num">03</h3>
+            <a class="article-title" href="#">The Growth of Gaming</a>
+            <p class="article-par">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
