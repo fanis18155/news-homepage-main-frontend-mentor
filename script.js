@@ -14,3 +14,6 @@ navigation.addEventListener("click", (e) => {
     toggleNavBtn();
   }
 });
+
+const test = "new function";
+console.log(test);
